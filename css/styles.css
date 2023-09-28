@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.queryTest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    width: 10em;
+    background-color: blue;
+}
+
+.h1 {
+    display:none
+}
+
+@media (max-width: 1200px) {
+    .queryTest {
+        height: 15em;
+        width: 10em;
+        background-color: chartreuse;
+    }
+}
+
+@media (max-width: 600px) {
+    .queryTest {
+        height: 70vh;
+        width: 70vw;
+        background-color: black;
+    }
+    .h1 {
+        display:block;
+        color: red;
+    }
+}
+
+
+
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
